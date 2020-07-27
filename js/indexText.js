@@ -488,7 +488,7 @@
   
   function handleTyping() {
     $(".element").typed({
-      strings: ["an IT professional", "a dedicated parent", "a sports enthusiast", "an external student"],
+      strings: ["an external student", "a dedicated parent", "a sports enthusiast", "an IT professional"],
       typeSpeed: 50,
       starDelay: 200,
       backDelay: 600,
