@@ -119,64 +119,7 @@ a {
 #contact strong {
   color: #00f6ed;
 }
-@media (min-width: 1024px) {
-  #menu-button {
-    font-size: 14px;
-    left: 2.5em;
-    position: fixed;
-    top: 2.5em;
-    z-index: 2;
- }
-  #home h1 p {
-    font-size: 42px;
-    font-weight: 400;
- }
-  #home h1 strong {
-    font-size: 46px;
- }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-  #menu-button {
-    font-size: 12px;
-    left: 2.5em;
-    position: fixed;
-    top: 2.5em;
-    z-index: 2;
- }
-  #home h1 p {
-    font-size: 38px;
-    font-weight: 400;
- }
-  #home h1 strong {
-    font-size: 42px;
- }
-}
-@media (min-width: 320px) and (max-width: 767px) {
-  #menu-button {
-    font-size: 10px;
-    left: 2.5em;
-    position: fixed;
-    top: 2.5em;
-    z-index: 2;
- }
-  #home h1 p {
-    font-size: 30px;
-    font-weight: 400;
- }
-  #home h1 strong {
-    font-size: 34px;
- }
-  #contact button {
-    font-size: 0.7em;
- }
-  #contact p {
-    font-size: 0.7em;
- }
 
- .carousel .carousel-indicators {
-	bottom: -50px;
-}
-}
 .dark-gray-background {
   background-color: #222426;
 }
@@ -375,5 +318,64 @@ h2.testimonials::after {
 
 .outerContainer{
   height: 60%;
+}
+
+@media (min-width: 1024px) {
+  #menu-button {
+    font-size: 14px;
+    left: 2.5em;
+    position: fixed;
+    top: 2.5em;
+    z-index: 2;
+ }
+  #home h1 p {
+    font-size: 42px;
+    font-weight: 400;
+ }
+  #home h1 strong {
+    font-size: 46px;
+ }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #menu-button {
+    font-size: 12px;
+    left: 2.5em;
+    position: fixed;
+    top: 2.5em;
+    z-index: 2;
+ }
+  #home h1 p {
+    font-size: 38px;
+    font-weight: 400;
+ }
+  #home h1 strong {
+    font-size: 42px;
+ }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #menu-button {
+    font-size: 10px;
+    left: 2.5em;
+    position: fixed;
+    top: 2.5em;
+    z-index: 2;
+ }
+  #home h1 p {
+    font-size: 30px;
+    font-weight: 400;
+ }
+  #home h1 strong {
+    font-size: 34px;
+ }
+  #contact button {
+    font-size: 0.7em;
+ }
+  #contact p {
+    font-size: 0.7em;
+ }
+
+ .carousel .carousel-indicators {
+	  bottom: -50px;
+  }
 }
 /* Code for the index page used from: https://codepen.io/rodrigo-medeiros/pen/mVroRo */
