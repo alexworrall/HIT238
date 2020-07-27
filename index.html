@@ -5,127 +5,260 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
   <link rel='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700' rel='stylesheet' type='text/css'>
   <link rel='https://fonts.googleapis.com/css?family=Droid+Serif:100,200,400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./css/indexStyle.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-<!-- Code for the index page used from: https://codepen.io/rodrigo-medeiros/pen/mVroRo -->
-<div class="container-fluid fill light-white-font">
-    <div id="menu-button">
-      <i class="fa fa-bars fa-3x middle-blue-font"></i>
-    </div>
-    <nav id="sidebar" class="hidden">
-      <ul class="nav nav-pills nav-stacked list-group">
-        <li class="text-uppercase"><a href="#home">Home</a></li>
-        <li class="text-uppercase"><a href="#projects">Projects</a></li>
-        <li class="text-uppercase"><a href="#about">About</a></li>
-        <li class="text-uppercase"><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div id="home" class="container-fluid fill dark-gray-background">
-      <h1 class="center text-center">
-        <p>Hi, my name is <strong class="middle-blue-font">Alexander Worrall</strong></p>
-        <p>and I'm <span class="element"></span></p>
-        <p>living in <strong class="middle-blue-font">South Australia</strong>.</p>
-      </h1>
-    </div>
-  </div>
-
-  <div id="projects" class="container-fluid light-white-font">
-    <h2 class="text-uppercase dark-gray-font">Projects</h2>
-    <div class="container dark-gray-font">
-      <div class="row">
-
-        <div class="col-md-4">
-          <div class="panel panel-default fixed-width center-block">
-            <div class="panel-body">
-              <a href="https://alexworrall.github.io/CDUCodeFair/index.html" target="CDU Code Fair 2020">
-                <img class="img-responsive center-block" src="./images/CDULogoSmall.png" />
-              </a>
-            </div>
-            <div class="panel-footer">
-              <h3>CDU Code Fair Website</h3>
-              <p>A mockup website for the 2020 CDU code fair for HIT226</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="panel panel-default fixed-width center-block">
-            <div class="panel-body">
-              <a href="https://appadvice.com/app/barossa-united-fixtures/651324454" target="AppAdvice">
-                <img class="img-responsive center-block" src="./images/BarossaUnitedFixturesPic.png" />
-              </a>              </div>
-            <div class="panel-footer">
-              <h3>iOS - Barossa United Fixtures</h3>
-              <p>A practice project creating a fixtures application for our local soccer club for the Apple App Store and Apple devices.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="panel panel-default fixed-width center-block">
-            <div class="panel-body">
-              <a href="https://apkpure.com/barossa-united-fixtures/com.wexy.barossafixtures" target="APKPure">
-                <img class="img-responsive center-block" src="./images/BarossaUnitedLogo.png" />
-              </a>
-            </div>
-            <div class="panel-footer">
-              <h3>Android - Barossa United Fixtures</h3>
-              <p>A practice project creating a fixtures application for our local soccer club for the Google Play Store and Android devices.</p>
-            </div>
-          </div>
-        </div>
-
+<div class="outerContainer">
+  <!-- Code for the index page used from: https://codepen.io/rodrigo-medeiros/pen/mVroRo -->
+  <div class="container-fluid fill light-white-font">
+      <div id="menu-button">
+        <i class="fa fa-bars fa-3x middle-blue-font"></i>
       </div>
-    </div>
+      <nav id="sidebar" class="hidden">
+        <ul class="nav nav-pills nav-stacked list-group">
+          <li class="text-uppercase"><a href="#home">Home</a></li>
+          <li class="text-uppercase"><a href="#projects">Projects</a></li>
+          <li class="text-uppercase"><a href="#about">About</a></li>
+          <li class="text-uppercase"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="home" class="container-fluid fill dark-gray-background">
+        <h1 class="center text-center">
+          <p>Hi, my name is <strong class="middle-blue-font">Alexander Worrall</strong></p>
+          <p>and I'm <span class="element"></span></p>
+          <p>living in <strong class="middle-blue-font">South Australia</strong>.</p>
+        </h1>
+      </div>
   </div>
 
-  <div id="about" class="container-fluid">
-    <h2 class="text-uppercase dark-gray-font">About me</h2>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5 col-md-offset-1 col-sm-12">
-          <p class="dark-gray-font text-justify">
-            I am an IT professional from South Australia who loves to learn about everything IT. I have a particular interest in programming and Cyber Security. I learn best by diving in headfirst and trying out things and 'seeing how it goes'!
-          </p>
-          <p class="dark-gray-font text-justify">
-            I started with VBA programming then moved on to Java and C. In previous years i have developed sites using HTML, javascript and other web technologies. I have created apps using Objective-C and Java for hobby projects.
-          </p>
-        </div>
-        <div class="col-md-5 col-sm-12">
-          <p class="dark-gray-font text-justify">
-            I have skills in C#, Python, Visual Studio, Android Studio and PyCharm.
-            The more I learn about IT the less I feel that I am very good at anything but I am always super keen to learn more.            </p>
-          <p class="dark-gray-font text-justify">
-            I don't think I'll ever stop being a student and studying for as long as I can. I look forward to learning new things in this course!
-          </p>
+    <div id="projects" class="container-fluid light-white-font">
+      <h2 class="text-uppercase dark-gray-font">Projects</h2>
+      <div class="container dark-gray-font">
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="panel panel-default fixed-width center-block">
+              <div class="panel-body">
+                <a href="https://alexworrall.github.io/CDUCodeFair/index.html" target="CDU Code Fair 2020">
+                  <img class="img-responsive center-block" src="./images/CDULogoSmall.png" />
+                </a>
+              </div>
+              <div class="panel-footer">
+                <h3>CDU Code Fair Website</h3>
+                <p>A mockup website for the 2020 CDU code fair for HIT226</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="panel panel-default fixed-width center-block">
+              <div class="panel-body">
+                <a href="https://appadvice.com/app/barossa-united-fixtures/651324454" target="AppAdvice">
+                  <img class="img-responsive center-block" src="./images/BarossaUnitedFixturesPic.png" />
+                </a>              </div>
+              <div class="panel-footer">
+                <h3>iOS - Barossa United Fixtures</h3>
+                <p>A practice project creating a fixtures application for our local soccer club for the Apple App Store and Apple devices.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="panel panel-default fixed-width center-block">
+              <div class="panel-body">
+                <a href="https://apkpure.com/barossa-united-fixtures/com.wexy.barossafixtures" target="APKPure">
+                  <img class="img-responsive center-block" src="./images/BarossaUnitedLogo.png" />
+                </a>
+              </div>
+              <div class="panel-footer">
+                <h3>Android - Barossa United Fixtures</h3>
+                <p>A practice project creating a fixtures application for our local soccer club for the Google Play Store and Android devices.</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
-  </div>
 
-  <div id="contact" class="footer">
-    <div class="container">
-      <div class="row">
-        <button type="button" name="email-btn" class="btn btn-default middle-blue-background center-block email">
-          <a href="mailto:s259008@students.cdu.edu.au" class="text-center text-uppercase"><i class="fa fa-envelope"></i> Email me</a>
-        </button>
-        <br />
-        <p class="text-center light-white-font">
-          <a class="middle-blue-font" href="https://www.linkedin.com/in/alexanderworrall/" title="My previous experiences" target="linkedin"><strong><i class="fa fa-linkedin"></i></strong></a>
-          &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-          <a class="middle-blue-font" href="https://github.com/alexworrall" title="My code: see for yourself" target="github"><strong><i class="fa fa-github"></i></strong></a>
-          &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-        </p>
+    <div id="about" class="container-fluid">
+      <h2 class="text-uppercase dark-gray-font">About me</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-md-offset-1 col-sm-12">
+            <p class="dark-gray-font text-justify">
+              I am an IT professional from South Australia who loves to learn about everything IT. I have a particular interest in programming and Cyber Security. I learn best by diving in headfirst and trying out things and 'seeing how it goes'!
+            </p>
+            <p class="dark-gray-font text-justify">
+              I started with VBA programming then moved on to Java and C. In previous years i have developed sites using HTML, javascript and other web technologies. I have created apps using Objective-C and Java for hobby projects.
+            </p>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <p class="dark-gray-font text-justify">
+              I have skills in C#, Python, Visual Studio, Android Studio and PyCharm.
+              The more I learn about IT the less I feel that I am very good at anything but I am always super keen to learn more.            </p>
+            <p class="dark-gray-font text-justify">
+              I don't think I'll ever stop being a student and studying for as long as I can. I look forward to learning new things in this course!
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
+    <div id="quiz" class="container-quiz light-white-font">
+        <div class="container dark-gray-font">
+          <div class="container">
+            <div class="row2">
+              <div class="col-md-8 col-center m-auto">
+                <h2 class="testimonials">Quiz Answers</h2>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                    <li data-target="#myCarousel" data-slide-to="8"></li>
+                    <li data-target="#myCarousel" data-slide-to="9"></li>
+                  </ol>   
+                  <!-- Wrapper for carousel items -->
+                  <div class="carousel-inner">
+                    <div class="item carousel-item active">
+                    <!---	<div class="img-box"><img src="/examples/images/clients/1.jpg" alt=""></div>--->
+                      <p class="testimonial">What is semantic HTML?</p>
+                      <p class="overview">Semantic HTML is a way of writing HTML which describes to both the browswer and the user what is happening in the HTML. It allows you to see
+                        what would be in the content based on the HTML element being used.
+                      </p>
+                    </div>
+                    <div class="item carousel-item">
+                    <!---	<div class="img-box"><img src="/examples/images/clients/2.jpg" alt=""></div>--->
+                      <p class="testimonial">How do you import a stylesheet into a HTML document?</p>
+                      <p class="overview">You have a few options when importing a stylesheet into a HTML document. Three are:
+                        <ol>
+                          <li>Inline - by using the style attribute inside HTML elements</li> 
+                          <li>Internal - by using a &lt;style&gt; element in the &lt;head&gt; section</li>
+                          <li>External - by using a &lt;link&gt; element to link to an external CSS file. This is done with the format:<br >
+                          &lt;link rel="stylesheet" href="./cssfolder/.css"&gt; </li>
+                        </ol>
+                      </p>
+                    </div>
+                    <div class="item carousel-item">
+                      <!---<div class="img-box"><img src="/examples/images/clients/3.jpg" alt=""></div>--->
+                      <p class="testimonial">How do you import javascript in to a HTML document?</p>
+                      <p class="overview">You can include javascript in your HTML document in a couple of ways:
+                        <ol>
+                          <li>Embedding the code in your HTML document using &lt;script&gt; tags</li> 
+                          <li>External - by using a &lt;script&gt; tag in your document to link to an external js file<br>
+                            script type="text/javascript" src="./js/jsfilename.js"></script></li>
+                        </ol>
+                      </p>
+                    </div>
+                    <div class="item carousel-item">
+                      <!---<div class="img-box"><img src="/examples/images/clients/3.jpg" alt=""></div>--->
+                      <p class="testimonial">What meta tag can you use to fix the mobile screen width?</p>
+                      <p class="overview">Viewport is the meta tag that can be used. The viewport is the user's visible area of a web page and varies with different screen sizes.
+                        As with this current page the viewport can be set by: <br>
+                        &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+                      </p>
+                    </div>
+                    <div class="item carousel-item">
+                      <!---<div class="img-box"><img src="/examples/images/clients/3.jpg" alt=""></div>--->
+                      <p class="testimonial">How do you apply CSS only to certain screen sizes?</p>
+                      <p class="overview">To apply CSS for only certain screen sizes you can use @media rules. You can check many things using @media queries 
+                        such as the width and height of viewport and device, orientation, resolution, etc. As with the attached css it could look like: <br>
+                        @media (min-width: 768px) and (max-width: 1023px){}
+                      </p>
+                    </div>
+                    <div class="item carousel-item">
+                      <!---<div class="img-box"><img src="/examples/images/clients/3.jpg" alt=""></div>--->
+                      <p class="testimonial">What does mobile first mean when writing CSS?</p>
+                      <p class="overview">Mobile first is designing and writing your CSS for a mobile device first and then customising the design for the larger and arguably
+                        easier larger devices afterwards. This way you have an improved experience on mobile devices.
+                      </p>
+                    </div>
+                    <div class="item carousel-item">
+                      <!---<div class="img-box"><img src="/examples/images/clients/3.jpg" alt=""></div>--->
+                      <p class="testimonial">How does a browser decide the order to apply CSS?</p>
+                      <p class="overview">CSS is applied using specificity. Certain selectors are scored using specificity if they have multiple declarations and the selector with the 
+                        scores best using the rules gets the CSS applied. If css specificity is equal then the last selector gets chosen.
+                      </p>
+                    </div>
+                    <div class="item carousel-item">
+                      <!---<div class="img-box"><img src="/examples/images/clients/3.jpg" alt=""></div>--->
+                      <p class="testimonial">Name three javascript best practices.</p>
+                      <p class="overview">
+                      <ol>
+                        <li>Use naming conventions for files, variables, functions, etc</li> 
+                        <li>Use adequate internal comments to highlight and explain certain areas of code and functions</li>
+                        <li>Make your code modular and only use functions for one task and use functions to avoid repeating code sections</li>
+                      </ol>
+                      </p>
+                    </div>
+                    <div class="item carousel-item">
+                      <!---<div class="img-box"><img src="/examples/images/clients/3.jpg" alt=""></div>--->
+                      <p class="testimonial">How do you run a javascript function when a button is pressed?</p>
+                      <p class="overview">
+                      You can use an onClick() event with your button to call your javascript function. It would look like:<br>
+                      &lt;button onclick="callMyFunction()">Go Function Go&lt;/button&gt;
+                      </p>
+                    </div>
+                    <div class="item carousel-item">
+                      <!---<div class="img-box"><img src="/examples/images/clients/3.jpg" alt=""></div>--->
+                      <p class="testimonial">What is the difference between == and === in javascript?</p>
+                      <p class="overview">
+                        == will compare two variables regardless of their datatype<br>
+                        5 == "5" is true<br>
+                        === will compare two variables but will use a strict check for the datatype as well<br>
+                        5 === "5" is false
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Carousel controls -->
+                  <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                  </a>
+                  <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          </body>
+          </html>
+        </div>
+    </div>
+
+    <div id="contact" class="footer">
+      <div class="container">
+        <div class="row">
+          <button type="button" name="email-btn" class="btn btn-default middle-blue-background center-block email">
+            <a href="mailto:s259008@students.cdu.edu.au" class="text-center text-uppercase"><i class="fa fa-envelope"></i> Email me</a>
+          </button>
+          <br />
+          <p class="text-center light-white-font">
+            <a class="middle-blue-font" href="https://www.linkedin.com/in/alexanderworrall/" title="My previous experiences" target="linkedin"><strong><i class="fa fa-linkedin"></i></strong></a>
+            &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+            <a class="middle-blue-font" href="https://github.com/alexworrall" title="My code: see for yourself" target="github"><strong><i class="fa fa-github"></i></strong></a>
+            &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+          </p>
+        </div>
+      </div>
+
+    </div>
   </div>
   <script type="text/javascript" src="./js/indexText.js"></script>
 </body>
