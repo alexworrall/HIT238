@@ -497,4 +497,6 @@
       cursorChar: "|"
     });
   }
+
+  // Code for the index page used from: https://codepen.io/rodrigo-medeiros/pen/mVroRo
   
