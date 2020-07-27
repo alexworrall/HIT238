@@ -172,6 +172,10 @@ a {
   #contact p {
     font-size: 0.7em;
  }
+
+ .carousel .carousel-indicators {
+	bottom: 150px;
+}
 }
 .dark-gray-background {
   background-color: #222426;
