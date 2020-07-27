@@ -174,7 +174,7 @@ a {
  }
 
  .carousel .carousel-indicators {
-	bottom: 150px;
+	bottom: -50px;
 }
 }
 .dark-gray-background {
